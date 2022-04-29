@@ -29,6 +29,7 @@ Below are the two sets of requirements for installing {{ site.data.product.title
   - An Amazon S3 bucket to store the disk image that will be imported to AWS as a snapshot.
 
   - A VM import service role (IAM role) named `vmimport`.
+  **Note**: Check that there are inbound rules to access ports 443, 22, and 80.
 
 For information on creating an Amazon S3 bucket and a VM Import Service Role, see the [Amazon EC2
 documentation](https://docs.aws.amazon.com/vm-import/latest/userguide/vmimport-image-import.html).
